@@ -1,0 +1,206 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* Home Section Styles */
+#home {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.role {
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Resume Section Styles */
+#resume {
+    padding: 50px 0;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Projects Section Styles */
+#projects {
+    padding: 50px 0;
+}
+
+.project-section {
+    margin-bottom: 30px;
+}
+
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.project-card {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.project-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.project-card h4 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.project-card a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Social Media Section Styles */
+#social-media {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.card a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Contact Me Section Styles */
+#contact {
+    padding: 50px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
